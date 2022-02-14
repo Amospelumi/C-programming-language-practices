@@ -49,7 +49,9 @@ int main(){
     }
 
     // trying the switch case instead of writing more of if.. else conditions
-    int day = 2;
+    int day;
+    // requesting for an input
+    scanf("%d", &day);
 
     switch (day){
         case 1:
@@ -68,6 +70,15 @@ int main(){
         printf("%d\n", cast);
         ++cast;
     }
+
+    //  Do while loop
+    int i = 0;
+
+    do {
+    printf("%d\n", i);
+    i++;
+    }
+    while (i < 5);
 
 
 
