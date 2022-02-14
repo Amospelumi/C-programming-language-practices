@@ -82,6 +82,16 @@ int main(){
 
 
 
+    // declaring a string and length of the string to contain.
+    char firstname[20];
+
+    printf("Kindly input your first name: ");
+    // while scanning and saving input for string the & operator is necessarily needed.
+    scanf("%s", firstname);
+    printf("You are welcome %s.", firstname);
+
+
+
     return 0;
 }
 
