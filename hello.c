@@ -38,6 +38,39 @@ int main(){
     // using comparison operator
     printf("%d\n", myNumber < number);
 
+
+    // trying the comparison function
+    if (myNumber > number){
+        printf(" Oh is greater");
+    }else if (myNumber < number){
+        printf("Common this is lesser \n");
+    }else{
+        printf("Fuck off");
+    }
+
+    // trying the switch case instead of writing more of if.. else conditions
+    int day = 2;
+
+    switch (day){
+        case 1:
+            printf("Sunday");
+            break;
+        case 2:
+            printf("Monday\n");
+            break;
+    }
+
+
+
+    // while loop
+    int cast = 1;
+    while (cast < 5){
+        printf("%d\n", cast);
+        ++cast;
+    }
+
+
+
     return 0;
 }
 
